@@ -1,3 +1,6 @@
+// I'm an idiot and didn't realize the text for part 1 was actually the problem.
+// I thought it was a special type of captcha and did it by hand...
+
 console.time('Advent of Code Day 1');
 
 let start = 0;
@@ -40,9 +43,6 @@ while (start != goal) {
         }
     }
     else {
-        console.log('A) index:', a.id, 'value:', a.value);
-        console.log('B) index:', b.id, 'value:', b.value);
-        console.log('C) index:', c.id, 'value:', c.value);
         console.log('Answers:', a.value, b.value, c.value, '=', a.value + b.value + c.value);
         console.log("Final answer = ", a.value * b.value * c.value);
         console.timeEnd('Advent of Code Day 1');
